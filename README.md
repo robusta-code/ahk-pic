@@ -1,12 +1,8 @@
 Tesseract files stream
 ======
 
-* Clone from github
-* `cd tesseract-stream`
 * Install nodejs wich includes npm
-* Type `npm install`
-
-
+* Type `npm install` in project directory
 
 
 
@@ -26,6 +22,8 @@ File Watching:
 https://github.com/paulmillr/chokidar
 https://davidwalsh.name/node-watch-file
 
+Unfortunately, it's not that easy to watch any folder. I have opened an issue 
+(https://github.com/paulmillr/chokidar/issues/576) 
 
 ### RxJS subscription
 
