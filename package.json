@@ -12,8 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "electron electron/main.js",
-    "tesseract": "node tesseract-test/test.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tesseract": "node tesseract-test/test.js"
   },
   "author": "",
   "license": "ISC"

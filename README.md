@@ -3,7 +3,10 @@ Tesseract files stream
 
 * Install nodejs wich includes npm
 * Type `npm install` in project directory
-
+* `npm run start` launch an Electron application that detect new files
+    - while started, create a png file in `electron/captures` folder
+* `npm run tesseract` launches a first test of tesseract ocr
+    - it will first download `eng.traineddata.gz`file
 
 
 Starting with Electron
